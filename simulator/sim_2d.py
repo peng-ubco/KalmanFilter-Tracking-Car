@@ -120,7 +120,10 @@ def simulator_kf(options, KalmanFilter):
     light, = ax.plot([94,94], [4,2] , 'r-', linewidth = 3)
     est, = ax.plot([], [], 'b+', markersize=10, fillstyle='none', linewidth=10, label='Kalman filter estimate')
     meas, = ax.plot([], [], 'go', markersize=10, fillstyle='none', linewidth=6, label='measurement')
-    ax.legend()
+    legend_loc = 2
+    if DRIVE_CIRCLE:
+        legend_loc = 0
+    ax.legend(loc=legend_loc)
 
     # First section.
     ax.plot([1,1], [9,1], 'k-')
