@@ -239,6 +239,6 @@ def simulator_kf(options, KalmanFilter):
                                       interval=100,
                                       repeat=False,
                                       blit=False)
-    car_ani.save('kf_2d_tracking_1.gif')
+    # car_ani.save('kf_2d_tracking.gif')
 
     plt.show()

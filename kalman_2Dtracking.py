@@ -3,7 +3,7 @@ from simulator.sim_2d import simulator_kf
 
 # Simulator options.
 sim_opt = {}
-sim_opt['FIG_SIZE'] = [8, 8]
+sim_opt['FIG_SIZE'] = [7, 7]
 
 sim_opt['DRIVE_CIRCLE'] = False
 # If False, measurements will be position_x, position_y.
