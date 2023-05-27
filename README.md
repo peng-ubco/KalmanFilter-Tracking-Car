@@ -8,7 +8,7 @@ We use an autonomous car as an example to demonstrate some interesting points.
 
 Simply run the "kalman_2Dtracking.py"
 
-![alt text](https://github.com/peng-ubco/KalmanFilter-Tracking-Car/blob/main/kf_2d_tracking.gif | width="30")
+![alt text](https://github.com/peng-ubco/KalmanFilter-Tracking-Car/blob/main/kf_2d_tracking.gif)
 
 You may have observed that the estimate accuracy degrades when the car is making a turn at the traffic light intersection. 
 
@@ -37,7 +37,7 @@ Before running the file, make sure the three parameters are set as "True", as sh
 ```sim_opt['MEASURE_ANGLE'] = True```
 `sim_opt['CONTROL_INPUTS'] = True`  
 
-![alt text](https://github.com/peng-ubco/KalmanFilter-Tracking-Car/blob/main/kf_2d_tracking_circle.gif | width="50")
+![alt text](https://github.com/peng-ubco/KalmanFilter-Tracking-Car/blob/main/kf_2d_tracking_circle.gif)
 
 ## Method 2
 
