@@ -33,9 +33,9 @@ $\dot{y}$ is the velocity at y-axis,
 and $\dot{\theta}$ is the velocity of the angle change
 
 Before running the file, make sure the three parameters are set as "True", as shown below: 
-```sim_opt['DRIVE_CIRCLE'] = True```
-```sim_opt['MEASURE_ANGLE'] = True```
-`sim_opt['CONTROL_INPUTS'] = True`  
+```sim_opt['DRIVE_CIRCLE'] = True
+sim_opt['MEASURE_ANGLE'] = True
+sim_opt['CONTROL_INPUTS'] = True```
 
 ![alt text](https://github.com/peng-ubco/KalmanFilter-Tracking-Car/blob/main/kf_2d_tracking_circle.gif)
 
