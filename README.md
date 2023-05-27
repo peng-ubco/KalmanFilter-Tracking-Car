@@ -8,7 +8,7 @@ We use an autonomous car as an example to demonstrate some interesting points.
 
 Simply run the "kalman_2Dtracking.py"
 
-![alt text](https://)
+![alt text](https://github.com/peng-ubco/KalmanFilter-Tracking-Car/blob/main/kf_2d_tracking.gif)
 
 You may have observed that the estimate accuracy degrades when the car is making a turn at the traffic light intersection. 
 
@@ -33,13 +33,11 @@ $\dot{y}$ is the velocity at y-axis,
 and $\dot{\theta}$ is the velocity of the angle change
 
 Before running the file, make sure the three parameters are set as "True", as shown below: 
-```sim_opt['DRIVE_CIRCLE'] = True
-# If False, measurements will be position_x, position_y.
-# If True, measurements will be position_x, position_y, and current angle of the car.
-sim_opt['MEASURE_ANGLE'] = True  # Required if driving in circle.
-sim_opt['CONTROL_INPUTS'] = True  # Required if driving in circle.```
+```sim_opt['DRIVE_CIRCLE'] = True```
+```sim_opt['MEASURE_ANGLE'] = True```
+`sim_opt['CONTROL_INPUTS'] = True`  
 
-![alt text](https://)
+![alt text](https://https://github.com/peng-ubco/KalmanFilter-Tracking-Car/blob/main/kf_2d_tracking_circle.gif)
 
 ## Method 2
 
